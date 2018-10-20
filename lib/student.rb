@@ -8,8 +8,6 @@ class Student
     @name = student_hash[:name]
     @location = student_hash[:location]
     @@all << self
-    p self.profile_url
-    
   end
 
   def self.create_from_collection(students_array)
